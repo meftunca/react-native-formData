@@ -10,10 +10,17 @@ form.set(key,value)  // new FormData() ile oluşturulan nesneye belirtilen key'e
 form.get(key) // new FormData() ile oluşturulan nesnedeki belirtilen değeri döndürür
 form.getAll() // new FormData() ile oluşturulan nesnedeki tüm değerleri size döndürür
 
-form.serialize() // new FormData() ile oluşturulan nesneyi application/x-www-form-urlencoded formatında göndermek için çevirir
+form.serialize() 
+/* 
+new FormData() ile oluşturulan nesneyi application/x-www-form-urlencoded
+formatında göndermek için çevirir
+*/
 
 form.create() 
-/* oluşturulan nesneyi react native tarafından desteklenen new FormData()'ya  append methodu ile ekleyerek bu apiyi kullanmanızı sağlar. */
+/* 
+oluşturulan nesneyi react native tarafından desteklenen new FormData()'ya 
+append methodu ile ekleyerek bu apiyi kullanmanızı sağlar. 
+*/
 
 ```
 
